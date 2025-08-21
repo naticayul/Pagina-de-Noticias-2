@@ -1,0 +1,561 @@
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(13, 1fr);
+    height: 6000px;
+    width: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+    
+header {
+    grid-column: span 3 / span 3;
+    display: flex; 
+    justify-content: center;
+    margin: 30px 0px ;
+    height: 80px;
+}
+
+.navegacionPestañas {
+    grid-column: span 3 / span 3;
+    grid-row-start: 2;
+    display: flex; 
+    justify-content: space-around; 
+    align-content: center;
+    position: sticky;
+    top: 10px;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(0, 167, 130) ;
+    margin-top: 20px;
+    }
+
+.navegacionPestañas a{
+    color: white;
+    font-size: large;
+    margin: 10px 0px;
+    align-content: center;
+}
+
+.navegacionPestañas a:hover{
+    background-color: rgb(58, 57, 57);
+    padding: 5px;
+    border-radius: 10%;
+}
+
+.publicidad1 {
+    display: flex;
+    justify-content: center;
+    grid-column: span 3 / span 3;
+    grid-row-start: 3;
+}
+
+main {
+    grid-row-start: 4;
+    margin: 0px 10px 0px 50px;
+    width: 50%;
+    width: 600px;
+    height: min-content;
+    padding: 20px;
+    border: 3px;
+    border: rgba(0, 167, 131, 0) solid;
+     
+}
+
+main:hover{
+    border: rgb(0, 167, 130) solid;
+    background-color: white;
+    border-radius: 2%;
+}
+
+main img{
+    width: 600px; 
+    border-radius: 2%;
+}
+
+main h5{
+    margin: 10px 0px;
+}
+
+main h1{
+    margin: 10px 0px;
+}
+
+main h4{
+    margin: 0px;
+}
+
+section {
+    grid-column: span 2 / span 2;
+    grid-row-start: 4;
+    width: 50%;
+    border: rgba(0, 167, 131, 0) solid;
+}
+
+section img{
+    width: 280px;
+    height: 200px;
+    margin: 0px 20px;
+    padding-top: 20px;
+}
+
+.duplaNoticia{
+    display: flex; 
+    justify-content: space-evenly;
+    border: 3px;
+    padding: 0px 20px;
+}
+
+.duplaNoticia h2{
+    width: 280px; 
+    font-size: medium;
+    margin: 0px 20px 20px;
+}
+
+.duplaNoticia h5{
+    width: 280px; 
+    font-size: small;
+    margin: 5px 20px;
+}
+
+.duplaNoticia a:hover{
+    border: rgb(0, 167, 130) solid;
+    background-color: white;
+    border-radius: 2%;
+    margin: 0px 10px;
+}
+
+.duplaNoticia a{
+    margin: 0px 10px;
+    border: rgba(0, 167, 131, 0) solid;
+}
+
+.noticiaUnica {
+    grid-column: span 3 / span 3;
+    grid-row-start: 5;
+    display: flex;
+    justify-content:center;
+    align-items: end;
+    justify-content: start;
+    background-image: url("https://eqsnotas-assets.tadevel-cdn.com/631cbb1aeba36dbd08838a22/720.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 40px 100px;
+    border: 30px;
+    height: 350px;
+}
+
+.noticiaUnica:hover{
+    border: rgb(0, 167, 130) solid;
+    background-color: white;
+}
+
+.noticiaUnica h3{
+    color: rgb(0, 167, 130);
+    font-size: 15px;
+    background-color: rgb(216, 216, 216);
+    margin-bottom: 0px;
+    margin-left: 60px;
+    padding: 10px 10px;
+}
+
+.noticiaUnica h1{
+    color: black ;
+    font-size: 35px;
+    background-color: rgb(216, 216, 216);
+    margin-top: 0px;
+    margin-left: 60px;
+    padding: 0px 10px 10px;
+}
+
+.noticiaUnica h1:hover{
+    text-shadow: rgb(0, 167, 130) 4px 1px ;
+}
+
+.publicidad2 {
+    grid-column: span 3 / span 3;
+    grid-row-start: 6;
+}
+
+aside {
+    grid-column: span 3 / span 3;
+    grid-row-start: 7;
+}
+
+.trioNoticia{
+    display: flex; 
+    justify-content: space-around;
+    margin: 20px 40px 40px;
+ }
+
+.trioNoticia a{
+    width: 280px; 
+    text-decoration: none;
+    padding: 20px 20px;
+    border: rgba(0, 167, 131, 0) solid;
+}
+.trioNoticia h5{   
+    margin: 10px 0px 5px;
+    padding: 0px;
+ }
+
+.trioNoticia h4{   
+    margin: 0px 0px;
+    padding: 0px;
+ }
+
+.trioNoticia img{
+    width: 280px;
+    height: 200px; 
+ }
+ 
+.trioNoticia iframe{
+    width: 280px;
+    height: 200px; 
+ }
+
+.trioNoticia a:hover{
+    border: rgb(0, 167, 130) solid;
+    background-color: white;
+    border-radius: 2%;
+}
+
+.noticiasNacionales {
+    grid-column: span 3 / span 3;
+    grid-row-start: 8;
+    border-radius: 10px;
+    background-color: rgb(75, 74, 74);
+    margin: 0px 30px;
+    height: 310px;
+    border: rgba(0, 167, 131, 0) solid;
+}
+    
+.noticiasNacionales img{
+    width: 180px;
+    height: 120px;
+}
+
+.noticiasNacionales h1{
+    display: flex;
+    justify-content: righ;
+    margin-top: 25px;
+    margin-left: 30px;
+    color: white;
+}
+
+.noticiasNacionales h6{
+    color: white;
+    width: 180px; 
+    margin: 10px 0px 0px;
+}
+
+.noticiasNacionales h5{
+    color: white;
+    width: 180px;
+    margin: 0px;
+    padding-bottom: 10px;
+}
+.noticiasNacionalesIndividual{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.noticiasNacionalesIndividual a{
+    border: rgba(0, 167, 131, 0) solid;
+    padding: 10px 10px 0px;
+}
+
+.noticiasNacionalesIndividual a:hover{
+    border:  white solid;
+    background-color: rgb(0, 167, 130);
+    border-radius: 2%;
+}
+
+.publicidad3 {
+    grid-column: span 3 / span 3;
+    grid-row-start: 9;
+}
+
+.noticiaUnica2 {
+    grid-column: span 3 / span 3;
+    grid-row-start: 10;
+    display: flex;
+    justify-content:center;
+    align-items: end;
+    justify-content: start;
+    background-image: url("https://eqsnotas-assets.tadevel-cdn.com/68a37d61d0f023c4bdeb662e/720.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 40px 100px;
+    border: 30px;
+    height: 350px;
+}
+
+.noticiaUnica2:hover{
+    border: rgb(0, 167, 130) solid;
+    background-color: white;
+}
+
+.noticiaUnica2 h3{
+    color: rgb(0, 167, 130);
+    font-size: 15px;
+    background-color: rgb(216, 216, 216);
+    margin-bottom: 0px;
+    margin-left: 60px;
+    margin-right: 50px;
+    padding: 10px 10px;
+}
+
+.noticiaUnica2 h1{
+    color: black ;
+    font-size: 35px;
+    background-color: rgb(216, 216, 216);
+    margin-top: 0px;
+    margin-left: 60px;
+    margin-right: 50px;
+    padding: 0px 10px 10px;
+}
+
+.noticiaUnica2 h1:hover{
+    text-shadow: rgb(0, 167, 130) 4px 1px ;
+}
+
+.deportes {
+    grid-column: span 3 / span 3;
+    grid-row-start: 11;
+    border-radius: 10px;
+    background-color: rgb(75, 74, 74);
+    margin: 0px 30px;
+    height: 310px;
+    border: rgba(0, 167, 131, 0) solid;
+}
+    
+.deportes img{
+    width: 180px;
+    height: 120px;
+}
+
+.deportes h1{
+    display: flex;
+    justify-content: righ;
+    margin-top: 25px;
+    margin-left: 30px;
+    color: white;
+}
+
+.deportes h6{
+    color: white;
+    width: 180px; 
+    margin: 10px 0px 0px;
+}
+
+.deportes h5{
+    color: white;
+    width: 180px;
+    margin: 0px;
+    padding-bottom: 10px;
+}
+.deportesIndividual{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.deportesIndividual a{
+    border: rgba(0, 167, 131, 0) solid;
+    padding: 10px 10px 0px;
+}
+
+.deportesIndividual a:hover{
+    border:  white solid;
+    background-color: rgb(0, 167, 130);
+    border-radius: 2%;
+}
+
+.publicidad4 {
+    grid-column: span 3 / span 3;
+    grid-row-start: 12;
+}
+
+
+.lasMasLeidas {
+    grid-column: span 2 / span 2;
+    grid-row-start: 13;
+    border: rgba(0, 167, 131, 0) solid;
+    background-color: rgb(0, 167, 130);
+    margin: 0px 0px 40px 30px;
+}
+.lasMasLeidas h1{
+    display: flex;
+    justify-content: righ;
+    font-size: 30px;
+    margin-top: 25px;
+    margin-left: 50px;
+    color: white;
+}
+.lasMasLeidas img{
+    width: 390px;
+    height: 310px;
+    margin: 0px 20px;
+    padding-top: 20px;
+}
+.lasMasLeidasDupla{
+    display: flex; 
+    justify-content: space-evenly;
+    border: 3px;
+    padding: 0px 20px;
+}
+.lasMasLeidasDupla h2{
+    width: 380px; 
+    font-size: x-large;
+    margin: 0px 20px 20px;
+}
+.lasMasLeidasDupla h5{
+    width: 380px; 
+    font-size: large;
+    margin: 5px 20px;
+    color: white;
+}
+.lasMasLeidasDupla a{
+    margin: 0px 10px;
+    border: rgba(0, 167, 131, 0) solid;
+
+}
+.lasMasLeidasDupla a:hover{
+    border: rgb(0, 167, 130) solid;
+    background-color: white;
+    border-radius: 2%;
+    margin: 0px 10px;
+}
+
+.miniNoticias{
+    grid-column-start: 3;
+    grid-row-start: 13;
+ 
+    display: block;
+    justify-content: space-around;
+    margin: 0px 10px;
+    padding: 0px;
+    border: 3px rgb(0, 167, 130) solid;
+    background-color: white;
+}
+.miniNoticias img{
+    width: 240px;
+    height: 160px;
+    margin: 0px 60px;
+    padding: 20px;
+ }
+.miniNoticias h2{
+    width: 240px; 
+    font-size: medium;
+    margin: 0px 70px 20px;
+}
+.miniNoticias h5{
+    width: 240px; 
+    font-size: SMALL;
+    margin: 0px 70px;
+    color: rgb(0, 167, 130);
+}
+.miniNoticias a{
+    margin: right;
+    background-color: white;
+    justify-content: space-around;    
+    
+}
+
+#volverAlInicio{
+    grid-column: span 3 / span 3;
+    grid-row-start: 14;
+    display: flex; 
+    justify-content: center;
+    margin: 30px 0px 40px;
+}
+
+#volverAlInicio button{
+    background-color: white;
+    color: rgb(0, 167, 130);
+    border: rgb(0, 167, 130) solid;
+    width: 200px;
+    font-size: x-large;
+}
+
+footer {
+    grid-row-start: 15;
+    display: flex;
+    justify-content: space-between;
+    grid-column: span 3 / span 3;
+    width: 100%;
+    border-top: 7px rgb(0, 167, 130) solid;
+    padding-bottom: 40px;
+}
+
+.pieIzquierda {
+    width: 35%;
+    padding-top: 30px;
+    padding-left: 60px;
+    box-sizing: border-box;
+}
+
+.pieIzquierda p{
+    margin: 5px 0px;
+    color: rgb(70, 69, 69);
+}
+
+.centro{
+    width: 31%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding-top: 35px;
+}
+
+.pieDerecha{
+    width: 33%;
+    padding-top: 30px;
+    padding-right: 40px;
+    box-sizing: border-box;
+    justify-content: end;
+}
+
+.pieDerecha p{
+    text-align: right;
+    color: rgb(70, 69, 69);
+    margin: 5px 0px;
+}
+
+.publicidades{
+    display: flex;
+    justify-content: center;
+    margin: 30px 40px 0px;
+}
+
+.publicidades img {
+    width: 900px;
+    height: 80px;
+    margin: 30px 40px;
+    border: 10px rgb(0, 167, 130) double
+}
+
+
+body {
+    background-color: rgb(216, 216, 216);
+    margin: 0%;
+}
+h5 {
+    color: rgb(0, 167, 130);
+}
+h6 {
+    color: rgb(137, 141, 140);    
+}
+p{
+    color: black;
+}
+div a {
+    text-decoration: none;
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
