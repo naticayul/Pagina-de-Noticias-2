@@ -126,7 +126,7 @@ section img{
 
 .duplaNoticia a{
     margin: 0px 10px;
-    border: rgba(0, 167, 131, 0) solid;
+    border: rgb(0, 167, 131) solid;
 }
 
 .noticiaUnica {
@@ -237,7 +237,7 @@ aside {
 
 .noticiasNacionales h1{
     display: flex;
-    justify-content: righ;
+    justify-content: left;
     margin-top: 25px;
     margin-left: 30px;
     color: white;
@@ -329,7 +329,7 @@ aside {
     background-color: rgb(75, 74, 74);
     margin: 0px 30px;
     height: 310px;
-    border: rgba(0, 167, 131, 0) solid;
+    border: rgb(0, 167, 131) solid;
 }
     
 .deportes img{
@@ -339,7 +339,7 @@ aside {
 
 .deportes h1{
     display: flex;
-    justify-content: righ;
+    justify-content: left;
     margin-top: 25px;
     margin-left: 30px;
     color: white;
