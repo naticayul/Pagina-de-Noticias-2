@@ -54,7 +54,7 @@ main {
     width: 900px;
     padding: 20px;
     border: 3px;
-    border: rgba(0, 167, 131, 0) solid;
+    border: rgb(0, 167, 130) solid;
     background-color: white;
 }
 

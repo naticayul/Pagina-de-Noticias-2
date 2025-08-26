@@ -419,13 +419,14 @@ aside {
 }
 .lasMasLeidasDupla a{
     margin: 0px 10px;
-    border: rgba(0, 167, 131, 0) solid;
+    border: rgb(0, 167, 130) solid;
 
 }
 .lasMasLeidasDupla a:hover{
     border: rgb(0, 167, 130) solid;
     background-color: white;
     border-radius: 2%;
+
     margin: 0px 10px;
 }
 
@@ -556,4 +557,16 @@ div a {
 a{
     text-decoration: none;
     color: black;
+}
+
+@media (width>600px) {
+    .duplaNoticia{
+        display: block;
+        flex-wrap: wrap;
+    }
+    section{
+        width: max-content;
+        background-color: brown;
+    }
+    
 }
