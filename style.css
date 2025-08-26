@@ -559,7 +559,7 @@ a{
     color: black;
 }
 
-@media (width>600px) {
+@media (width<600px) {
     .duplaNoticia{
         display: block;
         flex-wrap: wrap;
