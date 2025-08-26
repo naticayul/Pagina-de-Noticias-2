@@ -227,7 +227,7 @@ aside {
     background-color: rgb(75, 74, 74);
     margin: 0px 30px;
     height: 310px;
-    border: rgba(0, 167, 131, 0) solid;
+    border: rgba(167, 0, 131, 0) solid;
 }
     
 .noticiasNacionales img{
@@ -261,7 +261,7 @@ aside {
     
 }
 .noticiasNacionalesIndividual a{
-    border: rgba(0, 167, 131, 0) solid;
+    border: rgb(0, 167, 131, 0) solid;
     padding: 10px 10px 0px;
 }
 
@@ -388,7 +388,7 @@ aside {
 }
 .lasMasLeidas h1{
     display: flex;
-    justify-content: righ;
+    justify-content: left;
     font-size: 30px;
     margin-top: 25px;
     margin-left: 50px;
@@ -433,34 +433,33 @@ aside {
     grid-column-start: 3;
     grid-row-start: 13;
     display: block;
-    justify-content: space-around;
-    margin: 0px 10px;
-    padding: 0px;
+    margin: 0px 40px;
+}
+
+.miniNoticiasIndividual div{
     border: 3px rgb(0, 167, 130) solid;
     background-color: white;
+    height: max-content;
+    margin-bottom: 30px;
+    padding: 15px 15px 0px 15px;
 }
+
 .miniNoticiasIndividual img{
     width: 240px;
     height: 160px;
-    margin: 0px 60px;
-    padding: 20px;
 }
 .miniNoticiasIndividual h2{
     width: 240px; 
-    font-size: medium;
-    margin: 0px 70px 20px;
+    font-size: medium;    
 }
 .miniNoticiasIndividual h5{
     width: 240px; 
     font-size: SMALL;
-    margin: 0px 70px;
     color: rgb(0, 167, 130);
+    margin-top: 5px;
+    margin-bottom: 0px;
 }
-.miniNoticiasIndividual a{
-    margin: right;
-    background-color: white;
-    justify-content: space-around;        
-}
+
 
 #volverAlInicio{
     grid-column: span 3 / span 3;
@@ -476,6 +475,7 @@ aside {
     border: rgb(0, 167, 130) solid;
     width: 200px;
     font-size: x-large;
+    cursor: pointer; 
 }
 
 footer {

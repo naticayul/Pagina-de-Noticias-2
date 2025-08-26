@@ -1,0 +1,266 @@
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    height: 3000px;
+    width: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+    
+header {
+    grid-column: span 3 / span 3;
+    display: flex; 
+    justify-content: center;
+    margin: 30px 0px ;
+    height: 80px;
+}
+
+.navegacionPestañas {
+    grid-column: span 3 / span 3;
+    grid-row-start: 2;
+    display: flex; 
+    justify-content: space-around; 
+    align-content: center;
+    position: sticky;
+    top: 10px;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(0, 167, 130) ;
+    margin-top: 20px;
+    }
+
+.navegacionPestañas a{
+    color: white;
+    font-size: large;
+    margin: 10px 0px;
+    align-content: center;
+}
+
+.navegacionPestañas a:hover{
+    background-color: rgb(58, 57, 57);
+    padding: 5px;
+    border-radius: 10%;
+}
+
+.publicidad1 {
+    display: flex;
+    justify-content: center;
+    grid-column: span 3 / span 3;
+    grid-row-start: 3;
+}
+main {
+    grid-row-start: 4;
+    margin: 0px 10px 0px 50px;
+    width: 900px;
+    padding: 20px;
+    border: 3px;
+    border: rgba(0, 167, 131, 0) solid;
+    background-color: white;
+}
+
+main img{
+    width: 800px; 
+    border-radius: 2%;
+}
+
+main h5{
+    margin: 10px 0px;
+}
+
+main h1{
+    margin: 10px 0px;
+}
+
+main h4{
+    margin: 0px;
+}
+main button{
+    color: rgb(0, 167, 130); 
+    cursor: pointer; 
+    font-size: large;
+}
+.miniNoticias{
+    grid-column-start: 3;
+    grid-row-start: 4;
+    display: block;
+    margin: 0px 40px;
+}
+
+.miniNoticiasIndividual div{
+    border: 3px rgb(0, 167, 130) solid;
+    background-color: white;
+    height: max-content;
+    margin-bottom: 30px;
+    padding: 15px 15px 0px 15px;
+}
+
+.miniNoticiasIndividual img{
+    width: 200px;
+    height: 120px;
+}
+.miniNoticiasIndividual h2{
+    width: 200px; 
+    font-size: medium;    
+}
+.miniNoticiasIndividual h5{
+    width: 200px; 
+    font-size: SMALL;
+    color: rgb(0, 167, 130);
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+.publicidad2 {
+    display: flex;
+    justify-content: center;
+    grid-column: span 3 / span 3;
+    grid-row-start: 5;
+}
+
+.noticiasNacionales {
+    grid-column: span 3 / span 3;
+    grid-row-start: 6;
+    border-radius: 10px;
+    background-color: rgb(75, 74, 74);
+    margin: 0px 30px 50px;
+    height: 310px;
+    border: rgba(167, 0, 131, 0) solid;
+}
+    
+.noticiasNacionales img{
+    width: 180px;
+    height: 120px;
+}
+
+.noticiasNacionales h1{
+    display: flex;
+    justify-content: left;
+    margin-top: 25px;
+    margin-left: 30px;
+    color: white;
+}
+
+.noticiasNacionales h6{
+    color: white;
+    width: 180px; 
+    margin: 10px 0px 0px;
+}
+
+.noticiasNacionales h5{
+    color: white;
+    width: 180px;
+    margin: 0px;
+    padding-bottom: 10px;
+}
+.noticiasNacionalesIndividual{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.noticiasNacionalesIndividual a{
+    border: rgb(0, 167, 131, 0) solid;
+    padding: 10px 10px 0px;
+}
+
+.noticiasNacionalesIndividual a:hover{
+    border:  white solid;
+    background-color: rgb(0, 167, 130);
+    border-radius: 2%;
+}
+
+
+#volverAlInicio{
+    grid-column: span 3 / span 3;
+    grid-row-start: 7;
+    display: flex; 
+    justify-content: center;
+    margin: 30px 0px 40px;
+}
+
+#volverAlInicio button{
+    background-color: white;
+    color: rgb(0, 167, 130);
+    border: rgb(0, 167, 130) solid;
+    width: 200px;
+    font-size: x-large;
+    cursor: pointer; 
+}
+
+footer {
+    grid-row-start: 8;
+    display: flex;
+    justify-content: space-between;
+    grid-column: span 3 / span 3;
+    width: 100%;
+    border-top: 7px rgb(0, 167, 130) solid;
+    padding-bottom: 40px;
+}
+
+.pieIzquierda {
+    width: 35%;
+    padding-top: 30px;
+    padding-left: 60px;
+    box-sizing: border-box;
+}
+
+.pieIzquierda p{
+    margin: 5px 0px;
+    color: rgb(70, 69, 69);
+}
+
+.centro{
+    width: 31%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding-top: 35px;
+}
+
+.pieDerecha{
+    width: 33%;
+    padding-top: 30px;
+    padding-right: 40px;
+    box-sizing: border-box;
+    justify-content: end;
+}
+
+.pieDerecha p{
+    text-align: right;
+    color: rgb(70, 69, 69);
+    margin: 5px 0px;
+}
+
+.publicidades{
+    display: flex;
+    justify-content: center;
+    margin: 30px 40px 0px;
+}
+
+.publicidades img {
+    width: 900px;
+    height: 80px;
+    margin: 30px 40px;
+    border: 10px rgb(0, 167, 130) double
+}
+
+
+body {
+    background-color: rgb(216, 216, 216);
+    margin: 0%;
+}
+h5 {
+    color: rgb(0, 167, 130);
+}
+h6 {
+    color: rgb(137, 141, 140);    
+}
+p{
+    color: black;
+}
+div a {
+    text-decoration: none;
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
