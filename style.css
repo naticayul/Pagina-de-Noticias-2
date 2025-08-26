@@ -566,7 +566,13 @@ a{
     }
     section{
         width: max-content;
-        background-color: brown;
-    }
     
+    }
+    .parent{
+        display: block;
+    }
+    .lasMasLeidasDupla{
+        display: block ;
+        width: 100%;
+    }
 }
