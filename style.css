@@ -102,7 +102,7 @@ section img{
     display: flex; 
     justify-content: space-evenly;
     border: 3px;
-    padding: 0px 20px;
+    padding: 0px 20px 0px 0px;
 }
 
 .duplaNoticia h2{
@@ -237,7 +237,7 @@ aside {
 
 .noticiasNacionales h1{
     display: flex;
-    justify-content: righ;
+    justify-content: left;
     margin-top: 25px;
     margin-left: 30px;
     color: white;
@@ -339,7 +339,7 @@ aside {
 
 .deportes h1{
     display: flex;
-    justify-content: righ;
+    justify-content: left;
     margin-top: 25px;
     margin-left: 30px;
     color: white;
@@ -360,7 +360,6 @@ aside {
 .deportesIndividual{
     display: flex;
     justify-content: space-around;
-    
 }
 .deportesIndividual a{
     border: rgba(0, 167, 131, 0) solid;
@@ -382,6 +381,7 @@ aside {
 .lasMasLeidas {
     grid-column: span 2 / span 2;
     grid-row-start: 13;
+    width: 90%;
     border: rgba(0, 167, 131, 0) solid;
     background-color: rgb(0, 167, 130);
     margin: 0px 0px 40px 30px;
@@ -403,6 +403,7 @@ aside {
 .lasMasLeidasDupla{
     display: flex; 
     justify-content: space-evenly;
+    width: 45%;
     border: 3px;
     padding: 0px 20px;
 }
@@ -433,13 +434,14 @@ aside {
     grid-column-start: 3;
     grid-row-start: 13;
     display: block;
-    margin: 0px 40px;
+    margin: 0px 0px;
+    width: 30%;
 }
 
 .miniNoticiasIndividual div{
     border: 3px rgb(0, 167, 130) solid;
     background-color: white;
-    height: max-content;
+    width: 240px;
     margin-bottom: 30px;
     padding: 15px 15px 0px 15px;
 }
@@ -556,4 +558,69 @@ div a {
 a{
     text-decoration: none;
     color: black;
+}
+@media (width<600px){
+    .parent{
+        display: block;
+        margin: 0px;
+    }
+    main{
+        display: block;
+        width: 100%;
+        margin: 0;
+        padding: 0%;
+
+    }
+    .publicidad1{ 
+        width: 100%;
+    }
+    main a{
+        width: 100%;
+    }
+    section{
+        width: 100%;
+        justify-content: center;
+    }
+    .duplaNoticia{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .duplaNoticia a{
+        display: block;
+        justify-content: center;
+    }
+    .trioNoticia{
+        display: block;
+        width: 100%;
+    }
+    .noticiasNacionalesIndividual{
+        display: block;
+        width: 100%;
+    }
+    .deportesIndividual{
+        display: block;
+        width: 100%;
+    }
+    .lasMasLeidasDupla{
+        display: block;
+        width: 100%;
+    }
+    .miniNoticiasIndividual {
+        display: block;
+        width: 100%;
+    }
+    .miniNoticiasIndividual div{
+        width: 100%;
+    }
+     .miniNoticiasIndividual div img{
+        margin: 5%;
+        width: 90%;
+        height: 20%;
+
+    }
+
+    .miniNoticias{
+        width: 100%;
+    }
 }
