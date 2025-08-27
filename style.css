@@ -579,49 +579,11 @@ a{
         width: 100%;
     }
     section{
-        width: 100%;
-        justify-content: center;
+        width: max-content;
+    
     }
-    .duplaNoticia{
-        display: flex;
-        justify-content: center;
-        width: 100%;
-    }
-    .duplaNoticia a{
+    .parent{
         display: block;
-        justify-content: center;
     }
-    .trioNoticia{
-        display: block;
-        width: 100%;
-    }
-    .noticiasNacionalesIndividual{
-        display: block;
-        width: 100%;
-    }
-    .deportesIndividual{
-        display: block;
-        width: 100%;
-    }
-    .lasMasLeidasDupla{
-        display: block;
-        width: 100%;
-    }
-    .miniNoticiasIndividual {
-        display: block;
-        width: 100%;
-    }
-    .miniNoticiasIndividual div{
-        width: 100%;
-    }
-     .miniNoticiasIndividual div img{
-        margin: 5%;
-        width: 90%;
-        height: 20%;
-
-    }
-
-    .miniNoticias{
-        width: 100%;
-    }
+    
 }
